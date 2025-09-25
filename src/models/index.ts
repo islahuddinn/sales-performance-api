@@ -1,4 +1,5 @@
-import { ISale } from './sales';
-import { IUser } from './user';
+import { ISale, SalesModel } from './sales';
+import { IUser, UserModel } from './user';
+import { ITarget, TargetModel } from './targets';
 
-export { ISale, IUser };
+export { ISale, SalesModel, IUser, UserModel, ITarget, TargetModel };
